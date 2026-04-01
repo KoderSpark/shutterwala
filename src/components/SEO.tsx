@@ -7,7 +7,7 @@ const SEO = () => {
     "@id": "https://www.myshutterwala.in/#business",
     "name": "ShutterWala™",
     "alternateName": ["ShutterWala", "GVKS ShutterWala Services", "Sri Sai Ram Rolling Shutters"],
-    "description": "India's first subscription-based rolling shutter maintenance and repair company. Professional services for rolling shutters, motorized shutters, grill shutters and aluminium shutters including AMC, emergency repair, greasing, spring adjustment, roller replacement, and new installation.",
+    "description": "India's first subscription-based rolling shutter maintenance and repair company. Professional services for rolling shutters, motorized shutters, grill shutters and aluminium shutters including AMC, emergency repair, greasing, spring adjustment, all spare parts replacement, and new installation.",
     "url": "https://www.myshutterwala.in",
     "logo": "https://www.myshutterwala.in/logo.png",
     "image": "https://www.myshutterwala.in/og-image.png",
@@ -49,7 +49,7 @@ const SEO = () => {
     "serviceType": [
       "Rolling Shutter Maintenance", "Rolling Shutter Repair", "Motorized Shutter Service",
       "Shutter AMC", "Emergency Shutter Repair 24/7", "Rolling Shutter Installation",
-      "Shutter Greasing & Lubrication", "Shutter Spring Adjustment", "Roller Replacement",
+      "Shutter Greasing & Lubrication", "Shutter Spring Adjustment", "All spare parts replacement",
       "Commercial Shutter Service", "Industrial Rolling Shutter Repair"
     ],
     "openingHoursSpecification": {
@@ -72,7 +72,7 @@ const SEO = () => {
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AD-1250 General Plan — Manual Shutter Advanced AMC" }, "price": "1250", "priceCurrency": "INR" },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "G-850 Manual Gear Shutter Plan" }, "price": "850", "priceCurrency": "INR" },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "G-1850 Motorised Rolling Shutter Plan" }, "price": "1850", "priceCurrency": "INR" },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AD-1650 Motorised Shutter Advanced Plan" }, "price": "1650", "priceCurrency": "INR" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AD-1650 Manual Gear Operated Shutter Plan" }, "price": "1650", "priceCurrency": "INR" },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AD-3650 Motorised Shutter Premium Plan" }, "price": "3650", "priceCurrency": "INR" }
       ]
     },

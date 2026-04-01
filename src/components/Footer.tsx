@@ -16,7 +16,7 @@ const footerLinks = {
     { label: "Emergency Repair", href: null },
     { label: "Greasing", href: null },
     { label: "Safety Inspection", href: null },
-    { label: "Roller Replacement", href: null },
+    { label: "All spare parts replacement", href: null },
     { label: "Installation", href: null }
   ],
   Plans: [

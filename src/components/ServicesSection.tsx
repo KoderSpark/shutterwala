@@ -7,7 +7,7 @@ const services = [
   { icon: <LightningIcon />, title: "Emergency Repair 24/7", desc: "Round-the-clock emergency repair service with 2-hour response time." },
   { icon: <OilDropIcon />, title: "Greasing & Lubrication", desc: "Professional-grade lubrication for noise-free, effortless operation." },
   { icon: <ShieldIcon />, title: "Safety Inspection", desc: "Comprehensive safety audits to ensure compliance and prevent hazards." },
-  { icon: <SpinnerIcon />, title: "Roller Replacement", desc: "Worn-out roller replacement using premium industrial-grade parts." },
+  { icon: <SpinnerIcon />, title: "All spare parts replacement", desc: "Complete replacement of all damaged spare parts using premium industrial-grade components at zero extra cost." },
   { icon: <PlusExpandIcon />, title: "New Shutter Installation", desc: "End-to-end installation of modern rolling shutters for any business." },
 ];
 

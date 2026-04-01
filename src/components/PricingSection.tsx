@@ -137,7 +137,7 @@ const PricingSection = () => {
                 </div>
               )}
 
-              <span className="text-[10px] font-body font-bold text-primary/80 uppercase tracking-widest mb-1 block">
+              <span className="text-sm font-body font-bold text-primary/80 uppercase tracking-widest mb-1 block">
                 {plan.category}
               </span>
               <h3 className="font-display text-lg font-bold text-foreground mb-4">
