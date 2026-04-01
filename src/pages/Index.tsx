@@ -11,6 +11,7 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import ScrollProgress from "@/components/ScrollProgress";
 import LoadingScreen from "@/components/LoadingScreen";
+import SEO from "@/components/SEO";
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(() => {
@@ -27,6 +28,7 @@ const Index = () => {
 
   return (
     <>
+      <SEO />
       {isLoading && <LoadingScreen onComplete={handleLoadingComplete} />}
       <ScrollProgress />
       <Navbar />

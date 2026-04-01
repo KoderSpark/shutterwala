@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { AnimatedCounter } from "./AnimatedCounter";
 
 const stats = [
-  { value: 35000, suffix: "+", label: "Shutters Installed" },
+  { value: 46000, suffix: "+", label: "Shutters Installed" },
   { value: 35, suffix: "+", label: "Years Experience" },
   { value: 2, suffix: " hrs", label: "Avg Response Time" },
   { value: 98, suffix: "%", label: "Customer Satisfaction" },

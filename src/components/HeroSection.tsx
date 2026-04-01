@@ -130,8 +130,8 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="font-display text-4xl sm:text-5xl md:text-7xl font-bold leading-[1.1] text-foreground mb-6"
           >
-            We Maintain.{" "}
-            <span className="gradient-text">You Operate.</span>
+            We Maintain <span className="gradient-text">Rolling Shutters.</span>{" "}
+            You Operate <span className="gradient-text">Your Business.</span>
           </motion.h1>
 
           <motion.p
