@@ -249,6 +249,14 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-6">
+          {/* Semantic NAP for Local SEO — visually subtle, machine readable */}
+          <address className="not-italic font-body text-[10px] text-muted-foreground tracking-[0.15em] uppercase text-center md:text-left" itemScope itemType="https://schema.org/LocalBusiness">
+            <span itemProp="name">ShutterWala™</span> ·{" "}
+            <span itemProp="streetAddress">Gowliguda</span>,{" "}
+            <span itemProp="addressLocality">Hyderabad</span>,{" "}
+            <span itemProp="addressRegion">Telangana</span> ·{" "}
+            <a href="tel:+919336431234" itemProp="telephone" className="hover:text-primary transition-colors">+91 933 643 1234</a>
+          </address>
           <p className="font-body text-[10px] text-muted-foreground tracking-[0.2em] uppercase">
             © {new Date().getFullYear()} ShutterWala India
           </p>
