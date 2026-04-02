@@ -20,12 +20,12 @@ const footerLinks = {
     { label: "Installation", href: null }
   ],
   Plans: [
-    { label: "G-650 General Plan", href: null },
-    { label: "AD-1250 General Plan", href: null },
-    { label: "G-850 Plan", href: null },
-    { label: "G-1850 Plan", href: null },
-    { label: "AD-1650 Plan", href: null },
-    { label: "AD-3650 Plan", href: null }
+    { label: "G-650 General Plan", href: "#plans" },
+    { label: "AD-1250 General Plan", href: "#plans" },
+    { label: "G-850", href: "#plans" },
+    { label: "AD-1650", href: "#plans" },
+    { label: "G-1850", href: "#plans" },
+    { label: "AD-3650", href: "#plans" }
   ],
 };
 
