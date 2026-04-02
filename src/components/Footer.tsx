@@ -189,7 +189,7 @@ const Footer = () => {
             <img src="/logo.png" alt="ShutterWala Logo" className="hidden dark:block h-32 w-auto mb-6 object-contain" />
             <img src="/lightthemelogo.png" alt="ShutterWala Logo" className="block dark:hidden h-32 w-auto mb-6 object-contain" />
             <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4 max-w-[280px]">
-              Evolving the legacy of Sri ganesh Rolling Shutters into professional maintenance.
+              Evolving the legacy of ganesh Rolling Shutters into professional maintenance.
             </p>
             <p className="font-display text-[10px] font-bold text-primary uppercase tracking-[0.2em] mb-8">
               Trusted | Reliable | Professional
@@ -197,13 +197,15 @@ const Footer = () => {
             {/* Socials */}
             <div className="flex gap-4">
               {[
-                { Icon: Facebook, color: "hover:bg-[#1877F2] hover:text-white hover:border-[#1877F2]", label: "Facebook" },
-                { Icon: Instagram, color: "hover:bg-gradient-to-tr hover:from-[#f09433] hover:via-[#dc2743] hover:to-[#bc1888] hover:text-white hover:border-transparent", label: "Instagram" },
-                { Icon: Linkedin, color: "hover:bg-[#0A66C2] hover:text-white hover:border-[#0A66C2]", label: "Linkedin" }
-              ].map(({ Icon, color, label }, idx) => (
+                { Icon: Facebook, href: "https://www.facebook.com/share/18QQKAugsM/", color: "hover:bg-[#1877F2] hover:text-white hover:border-[#1877F2]", label: "Facebook" },
+                { Icon: Instagram, href: "https://www.instagram.com/shutterwala_official?igsh=NG56N3d3OTA5bXdk", color: "hover:bg-gradient-to-tr hover:from-[#f09433] hover:via-[#dc2743] hover:to-[#bc1888] hover:text-white hover:border-transparent", label: "Instagram" },
+                { Icon: Linkedin, href: "https://in.linkedin.com/in/shutter-wala-0872673bb", color: "hover:bg-[#0A66C2] hover:text-white hover:border-[#0A66C2]", label: "LinkedIn" }
+              ].map(({ Icon, href, color, label }, idx) => (
                 <a
                   key={idx}
-                  href="#"
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={label}
                   className={`w-10 h-10 rounded-xl bg-secondary flex items-center justify-center border border-border text-muted-foreground transition-all duration-300 group ${color}`}
                 >
