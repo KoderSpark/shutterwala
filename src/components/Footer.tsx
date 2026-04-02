@@ -34,9 +34,9 @@ const Footer = () => {
     <footer className="relative bg-background text-foreground overflow-hidden border-t border-border transition-colors duration-300">
       {/* Main Background Image */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={footerBg} 
-          alt="Commercial Shutters" 
+        <img
+          src={footerBg}
+          alt="Commercial Shutters"
           className="w-full h-full object-cover opacity-20 bg-fixed"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background via-background/90 to-background" />
@@ -44,72 +44,72 @@ const Footer = () => {
 
       {/* Background Pattern Overlay */}
       <div className="absolute inset-0 bg-[url('/images/industrial_texture_bg.png')] bg-cover bg-center opacity-5 mix-blend-overlay pointer-events-none z-[1]" />
-      
+
       {/* Premium Animated Gear Watermarks */}
       <div className="absolute -right-24 -top-24 w-[800px] h-[800px] dark:opacity-[0.03] opacity-5 pointer-events-none animate-gear-spin text-black dark:text-white">
         <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" strokeWidth="0.25" strokeLinecap="round" strokeLinejoin="round" className="w-full h-full drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]">
-           <circle cx="50" cy="50" r="42" strokeWidth="0.5" />
-           <circle cx="50" cy="50" r="38" strokeWidth="0.2" strokeDasharray="1 1" />
-           <circle cx="50" cy="50" r="28" strokeWidth="0.3" />
-           <circle cx="50" cy="50" r="26" strokeWidth="0.1" />
-           <circle cx="50" cy="50" r="12" strokeWidth="0.8" />
-           <circle cx="50" cy="50" r="8" strokeWidth="0.3" fill="currentColor" fillOpacity="0.05" />
-           
-           {/* Detailed Teeth */}
-           {[...Array(36)].map((_, i) => (
-             <path
-               key={`tooth-${i}`}
-               d="M48 8 L48.5 4 L51.5 4 L52 8 Z"
-               transform={`rotate(${i * 10} 50 50)`}
-             />
-           ))}
+          <circle cx="50" cy="50" r="42" strokeWidth="0.5" />
+          <circle cx="50" cy="50" r="38" strokeWidth="0.2" strokeDasharray="1 1" />
+          <circle cx="50" cy="50" r="28" strokeWidth="0.3" />
+          <circle cx="50" cy="50" r="26" strokeWidth="0.1" />
+          <circle cx="50" cy="50" r="12" strokeWidth="0.8" />
+          <circle cx="50" cy="50" r="8" strokeWidth="0.3" fill="currentColor" fillOpacity="0.05" />
 
-           {/* Precision Inner Notches */}
-           {[...Array(18)].map((_, i) => (
-             <path
-               key={`notch-${i}`}
-               d="M49 26 L49 28 L51 28 L51 26 Z"
-               transform={`rotate(${i * 20} 50 50)`}
-               fill="currentColor"
-             />
-           ))}
-           
-           {/* Complex Spokes */}
-           {[...Array(6)].map((_, i) => (
-             <g key={`spoke-${i}`} transform={`rotate(${i * 60} 50 50)`}>
-               <path d="M47 12 L53 12 L51 28 L49 28 Z" strokeWidth="0.3" fill="currentColor" fillOpacity="0.02" />
-               <path d="M49 12 L49 28" strokeWidth="0.5" />
-               <path d="M51 12 L51 28" strokeWidth="0.5" />
-               <circle cx="50" cy="20" r="1.5" strokeWidth="0.2" fill="currentColor" />
-             </g>
-           ))}
+          {/* Detailed Teeth */}
+          {[...Array(36)].map((_, i) => (
+            <path
+              key={`tooth-${i}`}
+              d="M48 8 L48.5 4 L51.5 4 L52 8 Z"
+              transform={`rotate(${i * 10} 50 50)`}
+            />
+          ))}
+
+          {/* Precision Inner Notches */}
+          {[...Array(18)].map((_, i) => (
+            <path
+              key={`notch-${i}`}
+              d="M49 26 L49 28 L51 28 L51 26 Z"
+              transform={`rotate(${i * 20} 50 50)`}
+              fill="currentColor"
+            />
+          ))}
+
+          {/* Complex Spokes */}
+          {[...Array(6)].map((_, i) => (
+            <g key={`spoke-${i}`} transform={`rotate(${i * 60} 50 50)`}>
+              <path d="M47 12 L53 12 L51 28 L49 28 Z" strokeWidth="0.3" fill="currentColor" fillOpacity="0.02" />
+              <path d="M49 12 L49 28" strokeWidth="0.5" />
+              <path d="M51 12 L51 28" strokeWidth="0.5" />
+              <circle cx="50" cy="20" r="1.5" strokeWidth="0.2" fill="currentColor" />
+            </g>
+          ))}
         </svg>
       </div>
 
       <div className="absolute -left-32 bottom-0 w-[600px] h-[600px] dark:opacity-[0.02] opacity-5 pointer-events-none animate-gear-spin-slow text-black dark:text-white">
         <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" strokeWidth="0.3" strokeLinecap="round" strokeLinejoin="round" className="w-full h-full">
-           <circle cx="50" cy="50" r="40" strokeWidth="0.4" />
-           <circle cx="50" cy="50" r="32" strokeWidth="0.2" />
-           <circle cx="50" cy="50" r="15" strokeWidth="0.5" />
-           <circle cx="50" cy="50" r="6" strokeWidth="0.2" fill="currentColor" fillOpacity="0.1" />
-           
-           {/* Angled Teeth */}
-           {[...Array(24)].map((_, i) => (
-             <path
-               key={`tooth2-${i}`}
-               d="M47 10 L48 6 L52 7 L52 10 Z"
-               transform={`rotate(${i * 15} 50 50)`}
-             />
-           ))}
-           
-           {/* Abstract Spokes */}
-           {[...Array(8)].map((_, i) => (
-             <g key={`spoke2-${i}`} transform={`rotate(${i * 45} 50 50)`}>
-               <line x1="50" y1="15" x2="50" y2="32" strokeWidth="0.8" />
-               <circle cx="50" cy="24" r="2" strokeWidth="0.3" fill="currentColor" />
-               <path d="M48 32 L52 32 L54 40 L46 40 Z" />
-             </g>
-           ))}
+          <circle cx="50" cy="50" r="40" strokeWidth="0.4" />
+          <circle cx="50" cy="50" r="32" strokeWidth="0.2" />
+          <circle cx="50" cy="50" r="15" strokeWidth="0.5" />
+          <circle cx="50" cy="50" r="6" strokeWidth="0.2" fill="currentColor" fillOpacity="0.1" />
+
+          {/* Angled Teeth */}
+          {[...Array(24)].map((_, i) => (
+            <path
+              key={`tooth2-${i}`}
+              d="M47 10 L48 6 L52 7 L52 10 Z"
+              transform={`rotate(${i * 15} 50 50)`}
+            />
+          ))}
+
+          {/* Abstract Spokes */}
+          {[...Array(8)].map((_, i) => (
+            <g key={`spoke2-${i}`} transform={`rotate(${i * 45} 50 50)`}>
+              <line x1="50" y1="15" x2="50" y2="32" strokeWidth="0.8" />
+              <circle cx="50" cy="24" r="2" strokeWidth="0.3" fill="currentColor" />
+              <path d="M48 32 L52 32 L54 40 L46 40 Z" />
+            </g>
+          ))}
         </svg>
       </div>
 
@@ -125,27 +125,27 @@ const Footer = () => {
         {/* Massive CTA Section */}
         <div className="mb-24 pb-16 border-b border-border text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="max-w-2xl">
-            <motion.h2 
+            <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               className="font-display text-4xl md:text-5xl lg:text-6xl font-black mb-6 tracking-tight leading-tight"
             >
-              Ready to secure your <br className="hidden md:block"/>
+              Ready to secure your <br className="hidden md:block" />
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-primary via-blue-400 to-primary bg-[length:200%_auto] animate-gradient-slow drop-shadow-sm">premises?</span>
             </motion.h2>
-            <motion.p 
+            <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
               className="font-body text-base md:text-lg text-muted-foreground max-w-xl mx-auto md:mx-0"
             >
-              India's 1st subscription-based shutter servicing company. <br/>
+              India's 1st subscription-based shutter servicing company. <br />
               <span className="text-primary font-bold uppercase tracking-widest text-xs mt-2 block">Powered by GVKS ShutterWala Services</span>
             </motion.p>
           </div>
-          
+
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -161,16 +161,16 @@ const Footer = () => {
             >
               {/* Premium Glass Polish */}
               <div className="absolute inset-0 bg-gradient-to-b from-white/20 to-transparent opacity-50" />
-              
+
               {/* Shine Animation */}
               <div className="absolute top-0 -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:animate-shine" />
-              
+
               <span className="relative z-10 flex items-center justify-center">
-                <motion.svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  viewBox="0 0 24 24" 
-                  width="24" 
-                  height="24" 
+                <motion.svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
                   className="text-white fill-white"
                   animate={{ rotate: [0, -10, 10, -10, 10, 0] }}
                   transition={{ repeat: Infinity, duration: 2, repeatDelay: 1, ease: "easeInOut" }}
@@ -189,27 +189,27 @@ const Footer = () => {
             <img src="/logo.png" alt="ShutterWala Logo" className="hidden dark:block h-32 w-auto mb-6 object-contain" />
             <img src="/lightthemelogo.png" alt="ShutterWala Logo" className="block dark:hidden h-32 w-auto mb-6 object-contain" />
             <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4 max-w-[280px]">
-              Evolving the legacy of Sri Sai Ram Rolling Shutters into professional maintenance.
+              Evolving the legacy of Sri ganesh Rolling Shutters into professional maintenance.
             </p>
             <p className="font-display text-[10px] font-bold text-primary uppercase tracking-[0.2em] mb-8">
               Trusted | Reliable | Professional
             </p>
             {/* Socials */}
             <div className="flex gap-4">
-               {[
-                 { Icon: Facebook, color: "hover:bg-[#1877F2] hover:text-white hover:border-[#1877F2]", label: "Facebook" },
-                 { Icon: Instagram, color: "hover:bg-gradient-to-tr hover:from-[#f09433] hover:via-[#dc2743] hover:to-[#bc1888] hover:text-white hover:border-transparent", label: "Instagram" },
-                 { Icon: Linkedin, color: "hover:bg-[#0A66C2] hover:text-white hover:border-[#0A66C2]", label: "Linkedin" }
-               ].map(({ Icon, color, label }, idx) => (
-                 <a 
-                   key={idx} 
-                   href="#" 
-                   aria-label={label}
-                   className={`w-10 h-10 rounded-xl bg-secondary flex items-center justify-center border border-border text-muted-foreground transition-all duration-300 group ${color}`}
-                 >
-                   <Icon size={18} className="group-hover:scale-110 transition-transform" />
-                 </a>
-               ))}
+              {[
+                { Icon: Facebook, color: "hover:bg-[#1877F2] hover:text-white hover:border-[#1877F2]", label: "Facebook" },
+                { Icon: Instagram, color: "hover:bg-gradient-to-tr hover:from-[#f09433] hover:via-[#dc2743] hover:to-[#bc1888] hover:text-white hover:border-transparent", label: "Instagram" },
+                { Icon: Linkedin, color: "hover:bg-[#0A66C2] hover:text-white hover:border-[#0A66C2]", label: "Linkedin" }
+              ].map(({ Icon, color, label }, idx) => (
+                <a
+                  key={idx}
+                  href="#"
+                  aria-label={label}
+                  className={`w-10 h-10 rounded-xl bg-secondary flex items-center justify-center border border-border text-muted-foreground transition-all duration-300 group ${color}`}
+                >
+                  <Icon size={18} className="group-hover:scale-110 transition-transform" />
+                </a>
+              ))}
             </div>
           </div>
 
@@ -221,7 +221,7 @@ const Footer = () => {
               </h4>
               <ul className="space-y-4">
                 {links.map((link, i) => (
-                  <motion.li 
+                  <motion.li
                     key={link.label}
                     initial={{ opacity: 0, x: -5 }}
                     whileInView={{ opacity: 1, x: 0 }}

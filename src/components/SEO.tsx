@@ -6,7 +6,7 @@ const SEO = () => {
     "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
     "@id": "https://www.myshutterwala.in/#business",
     "name": "ShutterWala™",
-    "alternateName": ["ShutterWala", "GVKS ShutterWala Services", "Sri Sai Ram Rolling Shutters"],
+    "alternateName": ["ShutterWala", "GVKS ShutterWala Services", "Sri ganesh Rolling Shutters"],
     "description": "India's first subscription-based rolling shutter maintenance and repair company. Professional services for rolling shutters, motorized shutters, grill shutters and aluminium shutters including AMC, emergency repair, greasing, spring adjustment, all spare parts replacement, and new installation.",
     "url": "https://www.myshutterwala.in",
     "logo": "https://www.myshutterwala.in/logo.png",
@@ -54,7 +54,7 @@ const SEO = () => {
     ],
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
       "opens": "00:00",
       "closes": "23:59"
     },

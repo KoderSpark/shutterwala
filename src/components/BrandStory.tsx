@@ -5,12 +5,12 @@ const timeline = [
   {
     year: "1989",
     title: "The Legacy Begins",
-    desc: "Our founder started Sri Sai Ram Rolling Shutters in Gowliguda, Hyderabad, with a clear mission: building strong, dependable shutters and standing by every customer."
+    desc: "Our founder started Ganesh Rolling Shutters in Gowliguda, Hyderabad, with a clear mission: building strong, dependable shutters and standing by every customer."
   },
   {
     year: "2000",
     title: "46,000+ Trust",
-    desc: "Sri Sai Ram became a household name, proudly manufacturing and installing over 46,000 shutters for shops, warehouses, and factories across Hyderabad."
+    desc: "Ganesh became a household name, proudly manufacturing and installing over 46,000 shutters for shops, warehouses, and factories across Hyderabad."
   },
   {
     year: "2005",
